@@ -10,7 +10,7 @@ a = Analysis(
         ('Tesseract-OCR', 'Tesseract-OCR'),  # Include the Tesseract folder
         ('icon.ico', '.'), # Include the icon file
     ],
-    hiddenimports=[],
+    hiddenimports=['win32gui', 'win32ui', 'win32con'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
